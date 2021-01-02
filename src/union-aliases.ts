@@ -1,4 +1,4 @@
-type Combinable = number | string;
+type Combinabled = number | string;
 type ConversionDescriptor = "as-number" | "as-text"; //ユニオン型とリテラル型の組み合わせ
 //型エイリアスとしての使用(分割代入みたいなもの)
 

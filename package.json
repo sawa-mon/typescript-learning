@@ -11,5 +11,14 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sawa-mon/typescript-learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sawa-mon/typescript-learning/issues"
+  },
+  "homepage": "https://github.com/sawa-mon/typescript-learning#readme"
 }

@@ -1,4 +1,4 @@
-function add(n1: number, n2: number) {
+function added(n1: number, n2: number) {
   return n1 + n2;
 }
 
@@ -17,13 +17,13 @@ addAndHandle(10, 20, (result) => {
 
 let combineValues: (a: number, b: number) => number;
 
-combineValues = add;
+combineValues = added;
 // combineValues = printResult;
 // combineValues = 5
 
 console.log(combineValues(8, 8));
 
-printResult(add(5, 12));
+printResult(added(5, 12));
 
 function sendRequest(data: string, cb: (response: any) => void) {
   // ... sending a request with "data"
