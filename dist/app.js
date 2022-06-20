@@ -1,6 +1,13 @@
 "use strict";
-function merge(objA, objB) {
-    return Object.assign(objA, objB);
+Object.defineProperty(exports, "__esModule", { value: true });
+const product_model_1 = require("./product.model");
+const products = [
+    { title: "商品１", price: 100 },
+    { title: "商品２", price: 200 },
+];
+const loadedProducts = products.map((prod) => {
+    return new product_model_1.Product(prod.title, prod.price);
+});
+for (const prod of loadedProducts) {
+    console.log(prod.getInformation());
 }
-const mergedObj = merge({ name: "Max", hobbies: ["Sports"] }, { age: 30 });
-console.log(mergedObj);
